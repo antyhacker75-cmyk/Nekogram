@@ -21,7 +21,7 @@ jobs:
       CCACHE_COMPILERCHECK: "%compiler% -dumpmachine; %compiler% -dumpversion"
       CCACHE_HARDLINK: "true"
       CCACHE_NOHASHDIR: "true"
-      CCACHE_MAXSIZE: "10G"
+      CCACHE_MAXSIZE: "15G"
     steps:
       - uses: actions/checkout@v7
         with:
